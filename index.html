@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Indeema Software</title>
+</head>
+<body>
+<style>
+    .anime{
+        opacity:0;
+        animation: show 2s 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes show {
+        0%{
+            opacity:0;
+        }
+        100% {
+            opacity:1;
+        }
+    }
+</style>
+
+<div>
+    <h2>Task 1</h2>
+    <label for="sum">Sum</label>
+    <input type="number" id="sum" class="sumAndPrice">
+    <label for="price">Price</label>
+    <input type="number" id="price" class="sumAndPrice">
+    <button id="buttonRest">Rest</button>
+    <p id="restValue"></p>
+</div>
+<br>
+<br>
+<div id="task2">
+    <h2>Task 2</h2>
+    <button id="buttonShowWindow">Show window</button>
+</div>
+<br>
+<br>
+<div>
+    <h2>Task 3</h2>
+</div>
+<br>
+<br>
+<div>
+    <!-- To edit please click on paragraph -->
+    <form name="fileForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" >
+        <label for="surname">Surname</label>
+        <input type="surname" id="surname" >
+        <label for="email">Email</label>
+        <input type="email" id="email" >
+        <button type="button">Add</button>
+    </form>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
